@@ -76,38 +76,50 @@ For more details about how my project changed from the initial proposal, see [Pl
 ### GIFs
 
 Here's a demonstration of how the new review reminders feature allows you to schedule, view, edit, and delete review reminders:
-
-<img src="media/crudDemonstration.gif" width="300" alt="Review reminder CRUD system" />
+<div align="center">
+    <img src="media/crudDemonstration.gif" width="300" alt="Review reminder CRUD system" />
+</div>
 
 <br>Deleting a deck also deletes the corresponding review reminders:
-
-<img src="media/deckDeletion.gif" width="300" alt="Review reminder deck deletion handling" />
+<div align="center">
+    <img src="media/deckDeletion.gif" width="300" alt="Review reminder deck deletion handling" />
+</div>
 
 ### Images
 
 When you receive reminder notifications, they look like this:
 
-<img src="media/notificationsImage.png" alt="Review reminder notifications" />
+<div align="center">
+    <img src="media/notificationsImage.png" width="400" alt="Review reminder notifications" />
+</div>
 
 <br>Clicking snooze dismisses the notification and causes it to come back after the selected time interval. Clicking on the notification opens the corresponding deck and allows you to begin reviewing.
 
 Here are some images of the main UI screens:
 
-<img src="media/uiScreens.png" alt="UI screens for the review reminder feature" />
+<div align="center">
+    <img src="media/uiScreens.png" alt="UI screens for the review reminder feature" />
+</div>
 
 <br>I also created dialogs and screens for explaining to the user why AnkiDroid needs the notification permission:
 
-<img src="media/permissionsExplanation.png" alt="UI screens explaining why AnkiDroid needs notification permissions" />
+<div align="center">
+    <img src="media/permissionsExplanation.png" alt="UI screens explaining why AnkiDroid needs notification permissions" />
+</div>
 
 <br>There are multiple ways to access the review reminders screen to ensure new users don't get stuck looking for it:
 
-<img src="media/bellIcon.jpg" alt="Bell icon entry point for the review reminders screen" />
-<br><br>
-<img src="media/newSettings.jpg" alt="New settings button for accessing the review reminders screen" />
+<div align="center">
+    <img src="media/bellIcon.jpg" width="400" alt="Bell icon entry point for the review reminders screen" />
+    <br><br>
+    <img src="media/newSettings.jpg" width="400" alt="New settings button for accessing the review reminders screen" />
+</div>
 
 <br>I also added a few advanced review reminder configuration settings:
 
-<img src="media/advancedSettings.png" alt="Review reminder advanced settings" /><br>
+<div align="center">
+    <img src="media/advancedSettings.png" width="400" alt="Review reminder advanced settings" /><br>
+</div>
 
 1. Count new cards / cards in learning / cards in review: Review reminders only trigger for a deck if the number of cards due in the deck exceeds the "card trigger threshold". For example, if you have ten cards due on a certain day, but the threshold is 20 cards, then no review reminder will be sent. However, there are different kinds of cards: new cards, cards in learning, and cards in review. This advanced option allows you to filter by certain cards when checking if the threshold is reached. For example, if a user wants to only get notifications if they have a lot of cards to *review*, but otherwise does not care if they have *new* cards to learn, then they can un-check the "count new cards when checking card threshold" advanced option.
 
@@ -115,7 +127,9 @@ Here are some images of the main UI screens:
 
 One thing I struggled with during this project was deprecating the old notifications system. Previous attempts at creating review reminders were still sitting around in the codebase in a broken state. I had to sieve through the code to figure out what parts were safe to keep and which parts had to be removed. Here's a mind map I created while mapping out which parts of the codebase were broken:
 
-<img src="media/mindMap.jpg" width="500" alt="Mind map of the old notifications system" /><br>
+<div align="center">
+    <img src="media/mindMap.jpg" width="500" alt="Mind map of the old notifications system" /><br>
+</div>
 
 ## Architecture ⚒️
 
