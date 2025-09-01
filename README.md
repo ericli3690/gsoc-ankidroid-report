@@ -77,10 +77,9 @@ For more details about how my project changed from the initial proposal, see [Pl
 
 Here's a demonstration of how the new review reminders feature allows you to schedule, view, edit, and delete review reminders:
 
-<video controls width="400">
-    <source src="media/crudDemonstration.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+<div align="center">
+    <iframe width="240" height="426" src="https://www.youtube.com/embed/yAWsdfn9EMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 <br>Deleting a deck also deletes the corresponding review reminders:
 
