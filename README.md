@@ -113,6 +113,10 @@ Here are some images of the main UI screens:
 
 2. Only notify me if no reviews have been done today: If a user dislikes receiving notifications and only wants to receive them if they are about to forget to review, they can toggle this advanced setting on. This ensures they only get notifications if they really need them, minimizing notification spam.
 
+One thing I struggled with during this project was deprecating the old notifications system. Previous attempts at creating review reminders were still sitting around in the codebase in a broken state. I had to sieve through the code to figure out what parts were safe to keep and which parts had to be removed. Here's a mind map I created while mapping out which parts of the codebase were broken:
+
+<img src="media/mindMap.jpg" alt="Mind map of the old notifications system" /><br>
+
 ## Pull Requests 🧑‍💻
 
 While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps) for more information.
