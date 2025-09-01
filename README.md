@@ -115,7 +115,7 @@ Here are some images of the main UI screens:
 
 One thing I struggled with during this project was deprecating the old notifications system. Previous attempts at creating review reminders were still sitting around in the codebase in a broken state. I had to sieve through the code to figure out what parts were safe to keep and which parts had to be removed. Here's a mind map I created while mapping out which parts of the codebase were broken:
 
-<img src="media/mindMap.jpg" alt="Mind map of the old notifications system" /><br>
+<img src="media/mindMap.jpg" width="500" alt="Mind map of the old notifications system" /><br>
 
 ## Architecture ⚒️
 
