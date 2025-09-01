@@ -171,7 +171,7 @@ While I filed other PRs during the summer, the following are the ones which are 
 30. [feat(reminders): only notify if no reviews](https://github.com/ankidroid/Anki-Android/pull/19157)
 31. [feat(reminders): request notification permissions](https://github.com/ankidroid/Anki-Android/pull/19167)
 
-Most of my work is located in the [reviewreminders](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/reviewreminders) directory, [services](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/services), or [ui/windows/permissions](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/ui/windows/permissions).
+**Most of my work is located in the [reviewreminders](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/reviewreminders) directory, [services](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/services), or [ui/windows/permissions](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/ui/windows/permissions).**
 
 ## Highlights 💭
 
