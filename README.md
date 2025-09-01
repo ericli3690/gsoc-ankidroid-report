@@ -119,7 +119,7 @@ One thing I struggled with during this project was deprecating the old notificat
 
 ## Architecture ⚒️
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/woYNS6jUGaojnUNKQz55Jx/GSoC-2025?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+<img src="media/architecture.png" alt="Diagram of my code's organization" />
 
 ## Pull Requests 🧑‍💻
 
