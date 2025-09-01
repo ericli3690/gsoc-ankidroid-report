@@ -73,7 +73,51 @@ For more details about how my project changed from the initial proposal, see [Pl
 
 ## Project Results ✨
 
-**Video and screenshots coming soon!**
+### Videos
+
+Here's a demonstration of how the new review reminders feature allows you to schedule, view, edit, and delete review reminders:
+
+<video controls width="400">
+    <source src="media/crudDemonstration.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<br>Deleting a deck also deletes the corresponding review reminders:
+
+<video controls width="400">
+    <source src="media/deckDeletion.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+### Images
+
+When you receive reminder notifications, they look like this:
+
+<img src="media/notificationsImage.png" alt="Review reminder notifications" />
+
+<br>Clicking snooze dismisses the notification and causes it to come back after the selected time interval. Clicking on the notification opens the corresponding deck and allows you to begin reviewing.
+
+Here are some images of the main UI screens:
+
+<img src="media/uiScreens.png" alt="UI screens for the review reminder feature" />
+
+<br>I also created dialogs and screens for explaining to the user why AnkiDroid needs the notification permission:
+
+<img src="media/permissionsExplanation.png" alt="UI screens explaining why AnkiDroid needs notification permissions" />
+
+<br>There are multiple ways to access the review reminders screen to ensure new users don't get stuck looking for it:
+
+<img src="media/bellIcon.jpg" alt="Bell icon entry point for the review reminders screen" />
+<br><br>
+<img src="media/newSettings.jpg" alt="New settings button for accessing the review reminders screen" />
+
+<br>I also added a few advanced review reminder configuration settings:
+
+<img src="media/advancedSettings.png" alt="Review reminder advanced settings" /><br>
+
+1. Count new cards / cards in learning / cards in review: review reminders only trigger for a deck if the number of cards due in the deck exceeds the "card trigger threshold". For example, if you have ten cards due on a certain day, but the threshold is 20 cards, then no review reminder will be sent. However, there are different kinds of cards: new cards, cards in learning, and cards in review. This advanced option allows you to filter by certain cards when checking if the threshold is reached. For example, if a user wants to only get notifications if they have a lot of cards to *review*, but otherwise does not care if they have *new* cards to review, then they can un-check the "count new cards when checking card threshold" advanced option.
+
+2. Only notify me if no reviews have been done today: If a user dislikes receiving notifications and only wants to receive them if they are about to forget to review, they can toggle this advanced setting on. This ensures they only get notifications if they really need them, minimizing notification spam.
 
 ## Pull Requests 🧑‍💻
 
