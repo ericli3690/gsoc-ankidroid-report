@@ -52,7 +52,11 @@ You may have heard of [Anki](https://apps.ankiweb.net/), one of the most popular
 
 See [my original project proposal document](https://docs.google.com/document/d/1KMjnm6ol1M_VMAsg9V5Qb4XRZnEON-39gkzLkFe8q2Y/edit?tab=t.0#heading=h.e0ji9i3xyoc6).
 
-For my GSoC project, I proposed adding **review reminders** to AnkiDroid, as the current notifications system was completely broken and had been for multiple years. Quoting from my proposal (with emojis added to indicate which features I completed):
+For my GSoC project, I proposed adding **review reminders** to AnkiDroid, as the current notifications system was completely broken and had been for multiple years.
+
+> "Notifications have been broken for 5/6 years and are one of the most common complaints about our app on Google Play [...] They're one of our few issues which have a dedicated label" ~David Allison, one of AnkiDroid's principal maintainers
+
+Quoting from my proposal (with emojis added to indicate which features I completed):
 
 > In summary, my key goals are as follows:
 > 
