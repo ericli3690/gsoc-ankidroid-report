@@ -117,6 +117,10 @@ One thing I struggled with during this project was deprecating the old notificat
 
 <img src="media/mindMap.jpg" alt="Mind map of the old notifications system" /><br>
 
+## Architecture ⚒️
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/woYNS6jUGaojnUNKQz55Jx/GSoC-2025?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+
 ## Pull Requests 🧑‍💻
 
 While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps) for more information.
@@ -153,7 +157,7 @@ While I filed other PRs during the summer, the following are the ones which are 
 30. [feat(reminders): only notify if no reviews](https://github.com/ankidroid/Anki-Android/pull/19157)
 31. [feat(reminders): request notification permissions](https://github.com/ankidroid/Anki-Android/pull/19167)
 
-Most of my work is located in either the [reviewreminders](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/reviewreminders) directory or [ui/windows/permissions](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/ui/windows/permissions).
+Most of my work is located in the [reviewreminders](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/reviewreminders) directory, [services](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/services), or [ui/windows/permissions](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/ui/windows/permissions).
 
 ## Highlights 💭
 
