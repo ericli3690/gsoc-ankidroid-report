@@ -14,6 +14,8 @@
     </h1>
 </div>
 
+**[Click here to jump to the project!](#project-results-✨)**
+
 ## About Me 🙂
 
 Hi, I'm **Eric**! As of writing, I'm a **Computer Science** student at the **University of Waterloo** in Canada. Feel free to reach out!
@@ -69,7 +71,7 @@ For my GSoC project, I proposed adding **review reminders** to AnkiDroid, as the
 > 10. Be able to create persistent notifications that have a defined start and end ✅ *(met in a different way than originally planned: we decided creating two types of review reminders (single and persistent) was too confusing. Instead, I added two simple snooze buttons to the review reminder notifications)*
 > 11. Be able to modify special options for notifications, such as including subdecks when counting cards for the card trigger threshold ✅ *(this specific advanced option was removed for adding unnecessary complexity, but other advanced options were implemented)*
 
-For more details about how my project changed from the initial proposal, see [Plan Changes](#plan-changes).
+For more details about how my project changed from the initial proposal, see [Plan Changes](#plan-changes-🔁).
 
 ## Project Results ✨
 
@@ -137,7 +139,7 @@ One thing I struggled with during this project was deprecating the old notificat
 
 ## Pull Requests 🧑‍💻
 
-While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps) for more information.
+While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps-➡️) for more information.
 
 1. [feat(reminders): entry points](https://github.com/ankidroid/Anki-Android/pull/18318)
 2. [feat(reminders): developer option](https://github.com/ankidroid/Anki-Android/pull/18327)
