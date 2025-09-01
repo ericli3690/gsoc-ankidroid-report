@@ -149,6 +149,8 @@ While I filed other PRs during the summer, the following are the ones which are 
 30. [feat(reminders): only notify if no reviews](https://github.com/ankidroid/Anki-Android/pull/19157)
 31. [feat(reminders): request notification permissions](https://github.com/ankidroid/Anki-Android/pull/19167)
 
+Most of my work is located in either the [reviewreminders](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/reviewreminders) directory or [ui/windows/permissions](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/ui/windows/permissions).
+
 ## Highlights 💭
 
 One of the major highlights of this project for me was handling ReviewReminder schema migration: basically, making sure the app wouldn't crash if a future developer decided to change the fields of the ReviewReminder data class stored in user devices. There were many unanticipated things I coded which I didn't expect to implement back in May, but this was the biggest unanticipated feature of the bunch. Nonetheless, I'm very happy the way I [solved the problem](https://github.com/ankidroid/Anki-Android/pull/18856), complete with unit tests, and I hope that it will help future developers work with the code I've written.
