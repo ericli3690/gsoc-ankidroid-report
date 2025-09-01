@@ -67,7 +67,7 @@ For my GSoC project, I proposed adding **review reminders** to AnkiDroid, as the
 > 
 > If possible, I also plan to implement the following:
 > 
-> 9. Be able to view previews of cards in notifications ❌ *(not met because, after a maintainer debate, we decided it was better off as an add-on feature rather than one that should be included in the vanilla app)*
+> 9. Be able to view previews of cards in notifications ❎ *(not met because, after a maintainer debate, we decided it was better off as an add-on feature rather than one that should be included in the vanilla app)*
 > 10. Be able to create persistent notifications that have a defined start and end ✅ *(met in a different way than originally planned: we decided creating two types of review reminders (single and persistent) was too confusing. Instead, I added two simple snooze buttons to the review reminder notifications)*
 > 11. Be able to modify special options for notifications, such as including subdecks when counting cards for the card trigger threshold ✅ *(this specific advanced option was removed for adding unnecessary complexity, but other advanced options were implemented)*
 
