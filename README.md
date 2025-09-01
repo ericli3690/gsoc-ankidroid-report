@@ -209,3 +209,5 @@ While I've fulfilled all of the things I set forth in my original project propos
 And of course, some of my PRs are still awaiting being merged. Over the next few months, I hope to revise them and fully merge my changes into main, implement the above features, and patch any bugs that show up in my code during beta testing.
 
 Looking forward to getting review reminders into a stable release and pushing it out to all of AnkiDroid's users!
+
+If you're looking to learn more about me, connect with me on [LinkedIn](https://www.linkedin.com/in/song-eric-li/) or check out my [website](https://ericli3690.github.io/). Have a great day!
