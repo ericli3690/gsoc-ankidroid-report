@@ -20,7 +20,7 @@
 
 - [About Me 🙂](#about-me-)
 - [My Mentors 🙏](#my-mentors-)
-- [About GSoC ☀️ and AnkiDroid ⭐](#about-gsoc--and-ankidroid-)
+- [About GSoC ☀️ and AnkiDroid ⭐](#about-gsoc-%EF%B8%8F-and-ankidroid-)
 - [Project Goals 🎯](#project-goals-)
 - [Project Results ✨](#project-results-)
 - [Architecture ⚒️](#architecture-️)
