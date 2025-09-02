@@ -14,14 +14,13 @@
     </h1>
 </div>
 
-**[Click here to jump to the project!](#project-results-✨)**
+**[Click here to jump to the project!](#project-results-)**
 
 ## About Me 🙂
 
 Hi, I'm **Eric**! As of writing, I'm a **Computer Science** student at the **University of Waterloo** in Canada. Feel free to reach out!
-* **[Website](https://ericli3690.github.io/)**
-* [LinkedIn](https://www.linkedin.com/in/song-eric-li/)
-* [GitHub](https://github.com/ericli3690)
+
+**[Website](https://ericli3690.github.io/)** | [LinkedIn](https://www.linkedin.com/in/song-eric-li/) | [GitHub](https://github.com/ericli3690)
 
 ## My Mentors 🙏
 
@@ -52,9 +51,11 @@ You may have heard of [Anki](https://apps.ankiweb.net/), one of the most popular
 
 See [my original project proposal document](https://docs.google.com/document/d/1KMjnm6ol1M_VMAsg9V5Qb4XRZnEON-39gkzLkFe8q2Y/edit?tab=t.0#heading=h.e0ji9i3xyoc6).
 
-For my GSoC project, I proposed adding **review reminders** to AnkiDroid, as the current notifications system was completely broken and had been for multiple years.
+For my GSoC project, I proposed adding **review reminders** to AnkiDroid, as the current notifications system is completely broken and has been for multiple years.
 
-> "Notifications have been broken for 5/6 years and are one of the most common complaints about our app on Google Play [...] They're one of our few issues which have a dedicated label" ~David Allison, one of AnkiDroid's principal maintainers
+> "Notifications have been broken for 5/6 years and are one of the most common complaints about our app on Google Play [...] They're one of our few issues which have a dedicated label"
+> 
+> ~ David Allison, one of AnkiDroid's principal maintainers
 
 Quoting from my proposal (with emojis added to indicate which features I completed):
 
@@ -75,7 +76,7 @@ Quoting from my proposal (with emojis added to indicate which features I complet
 > 10. Be able to create persistent notifications that have a defined start and end ✅ *(met in a different way than originally planned: we decided creating two types of review reminders (single and persistent) was too confusing. Instead, I added two simple snooze buttons to the review reminder notifications)*
 > 11. Be able to modify special options for notifications, such as including subdecks when counting cards for the card trigger threshold ✅ *(this specific advanced option was removed for adding unnecessary complexity, but other advanced options were implemented)*
 
-For more details about how my project changed from the initial proposal, see [Plan Changes](#plan-changes-🔁).
+For more details about how my project changed from the initial proposal, see [Plan Changes](#plan-changes-).
 
 ## Project Results ✨
 
@@ -83,11 +84,13 @@ For more details about how my project changed from the initial proposal, see [Pl
 
 Here's a demonstration of how the new review reminders feature allows you to schedule, view, edit, and delete review reminders:
 <div align="center">
-    <img src="media/crudDemonstration.gif" width="300" alt="Review reminder CRUD system" />
+    <a href="https://www.youtube.com/shorts/5eOBGKr5bTk">Watch in new tab</a><br><br>
+    <img src="media/crudDemonstration.gif" width="300" alt="Review reminder CRUD system" />    
 </div>
 
 <br>Deleting a deck also deletes the corresponding review reminders:
 <div align="center">
+    <a href="https://www.youtube.com/shorts/QkZxEYiZL-4">Watch in new tab</a><br><br>
     <img src="media/deckDeletion.gif" width="300" alt="Review reminder deck deletion handling" />
 </div>
 
@@ -127,9 +130,9 @@ Here are some images of the main UI screens:
     <img src="media/advancedSettings.png" width="400" alt="Review reminder advanced settings" /><br>
 </div>
 
-1. Count new cards / cards in learning / cards in review: Review reminders only trigger for a deck if the number of cards due in the deck exceeds the "card trigger threshold". For example, if you have ten cards due on a certain day, but the threshold is 20 cards, then no review reminder will be sent. However, there are different kinds of cards: new cards, cards in learning, and cards in review. This advanced option allows you to filter by certain cards when checking if the threshold is reached. For example, if a user wants to only get notifications if they have a lot of cards to *review*, but otherwise does not care if they have *new* cards to learn, then they can un-check the "count new cards when checking card threshold" advanced option.
+1. Count new cards / cards in learning / cards in review: For example, if a user only wants to get notifications when they have a lot of cards to *review*, but otherwise does not care if they have only *new* cards to learn, then they can un-check the "count new cards when checking card threshold" advanced option.
 
-2. Only notify me if no reviews have been done today: If a user dislikes receiving notifications and only wants to receive them if they are about to forget to review, they can toggle this advanced setting on. This ensures they only get notifications if they really need them, minimizing notification spam.
+2. Only notify me if no reviews have been done today: If a user dislikes receiving notifications and only wants to receive them if they are about to forget a review, they can toggle this advanced setting on.
 
 One thing I struggled with during this project was deprecating the old notifications system. Previous attempts at creating review reminders were still sitting around in the codebase in a broken state. I had to sieve through the code to figure out what parts were safe to keep and which parts had to be removed. Here's a mind map I created while mapping out which parts of the codebase were broken:
 
@@ -143,11 +146,11 @@ One thing I struggled with during this project was deprecating the old notificat
 
 ## Pull Requests 🧑‍💻
 
-While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps-➡️) for more information.
+While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps-) for more information. Key PRs that added new features are **bolded**!
 
-1. [feat(reminders): entry points](https://github.com/ankidroid/Anki-Android/pull/18318)
+1. **[feat(reminders): entry points](https://github.com/ankidroid/Anki-Android/pull/18318)**
 2. [feat(reminders): developer option](https://github.com/ankidroid/Anki-Android/pull/18327)
-3. [feat(reminders): ReviewRemindersDatabase and ReviewReminder](https://github.com/ankidroid/Anki-Android/pull/18364)
+3. **[feat(reminders): ReviewRemindersDatabase and ReviewReminder](https://github.com/ankidroid/Anki-Android/pull/18364)**
 4. [style: improve docstrings](https://github.com/ankidroid/Anki-Android/pull/18827)
 5. [refactor: prefs for entry points](https://github.com/ankidroid/Anki-Android/pull/18828)
 6. [refactor: ReviewReminderScope](https://github.com/ankidroid/Anki-Android/pull/18829)
@@ -156,26 +159,26 @@ While I filed other PRs during the summer, the following are the ones which are 
 9. [refactor: make DeckDropDownAdapter SubtitleListener cast safe](https://github.com/ankidroid/Anki-Android/pull/18852)
 10. [refactor: delete bulk deletion, use separate prefs file](https://github.com/ankidroid/Anki-Android/pull/18853)
 11. [feat(reminders): add ScheduleReminders DeckSpinner init method](https://github.com/ankidroid/Anki-Android/pull/18854)
-12. [feat(reminders): RecyclerView XML](https://github.com/ankidroid/Anki-Android/pull/18855)
-13. [feat(reminders): ReviewReminder schema migration](https://github.com/ankidroid/Anki-Android/pull/18856)
+12. **[feat(reminders): RecyclerView XML](https://github.com/ankidroid/Anki-Android/pull/18855)**
+13. **[feat(reminders): ReviewReminder schema migration](https://github.com/ankidroid/Anki-Android/pull/18856)**
 14. [feat(reminders): make ReviewReminder Parcelable](https://github.com/ankidroid/Anki-Android/pull/18866)
 15. [refactor: prepare BootService for review reminders](https://github.com/ankidroid/Anki-Android/pull/18939)
 16. [refactor: prepare AnkiDroidApp, widget, and day-rollover for review reminders](https://github.com/ankidroid/Anki-Android/pull/18946)
-17. [feat(reminders): review reminders RecyclerView](https://github.com/ankidroid/Anki-Android/pull/18964)
-18. [improvement: permission explanations](https://github.com/ankidroid/Anki-Android/pull/18978)
+17. **[feat(reminders): review reminders RecyclerView](https://github.com/ankidroid/Anki-Android/pull/18964)**
+18. **[improvement: permission explanations](https://github.com/ankidroid/Anki-Android/pull/18978)**
 19. [refactor: prepare AnkiActivity for review reminders](https://github.com/ankidroid/Anki-Android/pull/19047)
-20. [feat(reminders): handle deck deletion](https://github.com/ankidroid/Anki-Android/pull/19065)
-21. [feat(reminders): AddEditReminderDialog](https://github.com/ankidroid/Anki-Android/pull/19109)
+20. **[feat(reminders): handle deck deletion](https://github.com/ankidroid/Anki-Android/pull/19065)**
+21. **[feat(reminders): AddEditReminderDialog](https://github.com/ankidroid/Anki-Android/pull/19109)**
 22. [refactor: delete ReminderService](https://github.com/ankidroid/Anki-Android/pull/19114)
 23. [feat(reminders): create global scope helper](https://github.com/ankidroid/Anki-Android/pull/19115)
 24. [refactor(reminders): create allDecksCounts](https://github.com/ankidroid/Anki-Android/pull/19116)
 25. [feat(reminders): create notification channel](https://github.com/ankidroid/Anki-Android/pull/19117)
-26. [feat(reminders): AlarmManagerService and NotificationService](https://github.com/ankidroid/Anki-Android/pull/19118)
-27. [feat(reminders): set alarms from ScheduleReminders](https://github.com/ankidroid/Anki-Android/pull/19119)
+26. **[feat(reminders): AlarmManagerService and NotificationService](https://github.com/ankidroid/Anki-Android/pull/19118)**
+27. **[feat(reminders): set alarms from ScheduleReminders](https://github.com/ankidroid/Anki-Android/pull/19119)**
 28. [improvement: delete TiramisuPermissionsFragment and streamline PermissionsItem](https://github.com/ankidroid/Anki-Android/pull/19149)
-29. [feat(reminders): threshold filters](https://github.com/ankidroid/Anki-Android/pull/19156)
-30. [feat(reminders): only notify if no reviews](https://github.com/ankidroid/Anki-Android/pull/19157)
-31. [feat(reminders): request notification permissions](https://github.com/ankidroid/Anki-Android/pull/19167)
+29. **[feat(reminders): threshold filters](https://github.com/ankidroid/Anki-Android/pull/19156)**
+30. **[feat(reminders): only notify if no reviews](https://github.com/ankidroid/Anki-Android/pull/19157)**
+31. **[feat(reminders): request notification permissions](https://github.com/ankidroid/Anki-Android/pull/19167)**
 
 **Most of my work is located in the [reviewreminders](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/reviewreminders) directory, [services](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/services), or [ui/windows/permissions](https://github.com/ankidroid/Anki-Android/tree/main/AnkiDroid/src/main/java/com/ichi2/anki/ui/windows/permissions).**
 
@@ -212,6 +215,6 @@ While I've fulfilled all of the things I set forth in my original project propos
 
 And of course, some of my PRs are still awaiting being merged. Over the next few months, I hope to revise them and fully merge my changes into main, implement the above features, and patch any bugs that show up in my code during beta testing.
 
-Looking forward to getting review reminders into a stable release and pushing it out to all of AnkiDroid's users!
+Overall, I'm super proud of what I've accomplished this summer. Looking forward to getting review reminders into a stable release and pushing it out to all of AnkiDroid's users! 🚀
 
-If you're looking to learn more about me, connect with me on [LinkedIn](https://www.linkedin.com/in/song-eric-li/) or check out my [website](https://ericli3690.github.io/). Have a great day!
+If you're looking to learn more about me, **connect with me on [LinkedIn](https://www.linkedin.com/in/song-eric-li/)** or **check out my [website](https://ericli3690.github.io/)**. Have a great day!
