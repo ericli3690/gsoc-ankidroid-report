@@ -84,13 +84,13 @@ For more details about how my project changed from the initial proposal, see [Pl
 
 Here's a demonstration of how the new review reminders feature allows you to schedule, view, edit, and delete review reminders:
 <div align="center">
-    <a href="https://www.youtube.com/shorts/5eOBGKr5bTk">Watch in new tab</a><br><br>
+    <a href="https://www.youtube.com/shorts/5eOBGKr5bTk" target="_blank">Watch in new tab</a><br><br>
     <img src="media/crudDemonstration.gif" width="300" alt="Review reminder CRUD system" />    
 </div>
 
 <br>Deleting a deck also deletes the corresponding review reminders:
 <div align="center">
-    <a href="https://www.youtube.com/shorts/QkZxEYiZL-4">Watch in new tab</a><br><br>
+    <a href="https://www.youtube.com/shorts/QkZxEYiZL-4" target="_blank">Watch in new tab</a><br><br>
     <img src="media/deckDeletion.gif" width="300" alt="Review reminder deck deletion handling" />
 </div>
 
