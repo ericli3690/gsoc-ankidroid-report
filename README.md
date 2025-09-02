@@ -27,7 +27,7 @@
 - [Pull Requests 🧑‍💻](#pull-requests-)
 - [Highlights 💭](#highlights-)
 - [Plan Changes 🔁](#plan-changes-)
-- [Next Steps ➡️](#next-steps-)
+- [Next Steps ➡️](#next-steps-%EF%B8%8F)
 
 ## About Me 🙂
 
@@ -159,7 +159,7 @@ One thing I struggled with during this project was deprecating the old notificat
 
 ## Pull Requests 🧑‍💻
 
-While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps-) for more information. Key PRs that added new features are **bolded**!
+While I filed other PRs during the summer, the following are the ones which are directly related to the review reminders feature. As of writing, a few stragglers are still awaiting review: see [Next Steps](#next-steps-%EF%B8%8F) for more information. Key PRs that added new features are **bolded**!
 
 1. **[feat(reminders): entry points](https://github.com/ankidroid/Anki-Android/pull/18318)**
 2. [feat(reminders): developer option](https://github.com/ankidroid/Anki-Android/pull/18327)
