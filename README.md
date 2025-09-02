@@ -16,6 +16,19 @@
 
 **[Click here to jump to the project!](#project-results-)**
 
+## Table of Contents 📃
+
+- [About Me 🙂](#about-me-)
+- [My Mentors 🙏](#my-mentors-)
+- [About GSoC ☀️ and AnkiDroid ⭐](#about-gsoc--and-ankidroid-)
+- [Project Goals 🎯](#project-goals-)
+- [Project Results ✨](#project-results-)
+- [Architecture ⚒️](#architecture-️)
+- [Pull Requests 🧑‍💻](#pull-requests-)
+- [Highlights 💭](#highlights-)
+- [Plan Changes 🔁](#plan-changes-)
+- [Next Steps ➡️](#next-steps-)
+
 ## About Me 🙂
 
 Hi, I'm **Eric**! As of writing, I'm a **Computer Science** student at the **University of Waterloo** in Canada. Feel free to reach out!
